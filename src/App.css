@@ -1,0 +1,15 @@
+.animated-bg {
+  background: linear-gradient(to bottom, #d8c6ff, #f0e6ff);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundShift 10s infinite linear;
+}
+
+@keyframes backgroundShift {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
